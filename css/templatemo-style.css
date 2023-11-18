@@ -382,16 +382,16 @@ https://templatemo.com/tm-516-known
   .caption h3 a:hover { color: #FF3; }
 
   .home-slider .item-first {
-    background-image: url(../images/slider-image1.jpg);
+    background-image: url(../images/slider21.jpg);
 	background-position: center;
   }
 
   .home-slider .item-second {
-    background-image: url(../images/slider-image2.jpg);
+    background-image: url(../images/slider23.jpg);
   }
 
   .home-slider .item-third {
-    background-image: url(../images/slider-image3.jpg);
+    background-image: url(../images/slider22.jpg);
   }
 
 
@@ -403,6 +403,7 @@ https://templatemo.com/tm-516-known
   .feature-thumb {
     border: 1px solid #f0f0f0;
     padding: 5em 3em;
+    margin-bottom: 0em;
   }
 
   .feature-thumb span {
@@ -493,7 +494,6 @@ https://templatemo.com/tm-516-known
   /*---------------------------------------
       COURSES             
   -----------------------------------------*/
-
   #courses .section-title {
     text-align: center;
   }
@@ -992,5 +992,9 @@ https://templatemo.com/tm-516-known
       width: inherit;
       height: inherit;
     }
+  }
+  .container .row {
+    margin-bottom: 5px;
+    margin-top: 5px;
   }
   

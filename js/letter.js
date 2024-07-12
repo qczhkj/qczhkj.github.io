@@ -78,4 +78,4 @@ window.onload = function ()
 	$('body').css('opacity', '1');
 	$('#jsi-cherry-container').css('z-index', '-99');
 	
-}
+} 

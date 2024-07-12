@@ -6,13 +6,21 @@ $("#open").click(function(){
 	if(!aparted)
 	{
 		var typed = new Typed('.letter', {
-			strings: ["^1000Dear&nbsp;&nbsp;Xiao xiong", 
-				"小熊师妹：<br><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;恭喜你成为晋升为一名博士研究生，希望以后的日子我们可以一起努力<br><br><p style='float:right; display:block; width:80px;'>^1000H^200ao</p>"],
+			strings: ["Dear&nbsp;&nbsp;Xiao xiong，如你所说，感恩所有遇见，期待共同进步。", 
+				"小熊师妹：<br><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; \
+				恭喜你成为一名博士研究生！&nbsp;你大方又从容，知足而上进， \
+				一定可以在未来披荆斩棘。小小博士，拿下！ \
+				虽然认识你时间不长，却有一见如故，相见恨晚之感，\
+				于我平凡的日子之中增添了流光溢彩的一页。\
+				<br><br>&nbsp;&nbsp; \
+				希望小熊师妹以后带我学习，带我科研！ \
+				<br><br><p style='float:right; display:block; width:80px;'>^1000H^200ao</p>",
+				"这是一个测试"],
 			typeSpeed: 100,
 			backSpeed: 50
 		});
 		
-		$('#open').find("span").eq(0).css('background-position', "0 -150px");
+		$('#open').find("span").eq(0).css('background-position', "-100 -150px");
 		
 		aparted = true;
 		

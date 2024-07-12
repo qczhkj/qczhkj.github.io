@@ -15,7 +15,7 @@ $("#open").click(function(){
 				<br><br>&nbsp;&nbsp; \
 				希望小熊师妹以后带我学习，带我科研！ \
 				<br><br><p style='float:right; display:block; width:80px;'>^1000H^200ao</p>",
-				"这是一个测试"],
+				"有话则长，哈哈哈！"],
 			typeSpeed: 100,
 			backSpeed: 50
 		});
